@@ -1,0 +1,11 @@
+pysecuritycenter
+xmltodict
+validators
+networkx
+PyPDF2
+svgwrite
+svgutils
+easysnmp
+netaddr
+netmiko
+oset
