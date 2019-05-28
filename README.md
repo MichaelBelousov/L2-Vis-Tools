@@ -1,6 +1,6 @@
 # L2VisTools
 
-### This is a partially redacted dump of scripts and tools for some graphical network auditing
+### This is a partially redacted dump of scripts and tools for some graphical network auditing, using nmap, CISCO routers + CDP, SNMP, and etc
 
 ###### Version 0.0.2
 
@@ -14,7 +14,7 @@ See the arg-parse generated usage and help for each script.
 
 ### <a name="trace.py"></a>trace.py
 
-**trace.py** runs an nmap scan, and stores the result in the used [XML schema](#XMLStructure)
+**trace.py** runs an nmap scan, and stores the result in the used [XML schema](#XMLSchema)
 
 ### <a name="sheet.py"></a>sheet.py
 
@@ -74,7 +74,7 @@ simple graph description format (parser) for manually writing
 out graphs
 
 ---
-## <a name="XMLStructure"></a>XML Structure
+## <a name="XMLSchema"></a>XML Schema
 ---
 
 The common XML schema used by the applications is of the following structure:
